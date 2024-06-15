@@ -1,0 +1,14 @@
+/*
+  Blink an LED on pin 13
+*/
+
+void setup() {
+  pinMode(13, OUTPUT); // sets the digital pin 13 as output
+}
+
+void loop() {
+  digitalWrite(13, HIGH);   // turn the LED on (HIGH is 5V)
+  delay(1000);               // wait for 1 second (1000 milliseconds)
+  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);               // wait for 1 second (1000 milliseconds)
+}
